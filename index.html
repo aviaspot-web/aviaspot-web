@@ -1,17 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-  -->
-  <base href="https://aviaspot-web.github.io/aviaspot-web/">
+  <base href="/">
 
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
@@ -31,11 +21,11 @@
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
 <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
-<!-- This script installs service_worker.js to provide PWA functionality to
-       application. For more information, see:
-       https://developers.google.com/web/fundamentals/primers/service-workers -->
+<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
   <script>
-  const firebaseConfig = {
+
+    // paste your web config here
+const firebaseConfig = {
     apiKey: "AIzaSyDh6lY7b4nGJsFuwMumISKFJftoK3zWVsk",
     authDomain: "aviaspot-c9862.firebaseapp.com",
     projectId: "aviaspot-c9862",
@@ -43,9 +33,10 @@
     messagingSenderId: "891643271094",
     appId: "1:891643271094:web:7fb0e4950c7a97ce2f1317"
   };
+
     firebase.initializeApp(firebaseConfig);
 
-    var serviceWorkerVersion = '2167601109';
+    var serviceWorkerVersion = '3085898935';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
