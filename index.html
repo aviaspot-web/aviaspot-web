@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <base href="https://aviaspot-web.github.io/aviaspot-web/">
 
@@ -15,28 +16,35 @@
 
   <title>Aviaspot</title>
   <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
+
 <body>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+  <header>
+    <nav>
+      <img src='assets/images/jet.png' class="logo">
+      <a class="title" href="#">AviaSpot</a>
+      <a class="subtitle" href="#">- рынок авиадеталей</a>
+
+      <ul>
+        <li><a href="/">Главная</a></li>
+        <li><a href="#home">О проекте</a></li>
+        <li><a href="#contact">Контакты</a></li>
+        <li><a href="#about">Помощь</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-messaging.js"></script>
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+  <script src="./config.js"></script>
   <script>
-
-    // paste your web config here
-const firebaseConfig = {
-    apiKey: "AIzaSyDh6lY7b4nGJsFuwMumISKFJftoK3zWVsk",
-    authDomain: "aviaspot-c9862.firebaseapp.com",
-    projectId: "aviaspot-c9862",
-    storageBucket: "aviaspot-c9862.appspot.com",
-    messagingSenderId: "891643271094",
-    appId: "1:891643271094:web:7fb0e4950c7a97ce2f1317"
-  };
-
     firebase.initializeApp(firebaseConfig);
-
-    var serviceWorkerVersion = '2023887296';
+    var serviceWorkerVersion = null;
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -100,4 +108,5 @@ const firebaseConfig = {
     }
   </script>
 </body>
+
 </html>
