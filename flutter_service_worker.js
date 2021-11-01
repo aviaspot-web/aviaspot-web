@@ -50,13 +50,14 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "eaed33dc9678381a55cb5c13edaf241d",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-solid-900.ttf": "ffed6899ceb84c60a1efa51c809a57e4",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"css/styles.css": "46ab17c2c1bfb1a917e82e8a18bc26c0",
+"config.js": "945304fef89662d1ea2b7348383e36fe",
+"css/styles.css": "b1a82704473ab850f9d5f31a68a07e63",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "31629e2a8fede7db5fc013a2c3c3c4ff",
-"/": "31629e2a8fede7db5fc013a2c3c3c4ff",
-"main.dart.js": "2f7336423c018472080ba6e0cd5e972f",
+"index.html": "b36cc3440aebd04fb809ceb97a7ea233",
+"/": "b36cc3440aebd04fb809ceb97a7ea233",
+"main.dart.js": "b338b4bb85f241eb26abfb101e53e870",
 "manifest.json": "de13eaf27aa5f4358328215be94cd370",
 "version.json": "0d8c555ab88fba9325fda778479e5a9d"
 };

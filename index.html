@@ -20,20 +20,29 @@
 </head>
 
 <body>
-  <header>
-    <nav>
-      <img src='assets/assets/images/jet.png' class="logo">
-      <a class="title" href="#">AviaSpot</a>
-      <a class="subtitle" href="#">- рынок авиадеталей</a>
 
-      <ul>
-        <li><a href="/">Главная</a></li>
-        <li><a href="#home">О проекте</a></li>
-        <li><a href="#contact">Контакты</a></li>
-        <li><a href="#about">Помощь</a></li>
-      </ul>
-    </nav>
+  <header>
+    <div class="main">
+      <div class="left-part">
+        <img class="logo" src="assets/assets/images/jet.png">
+        <a class="title" href="#">AviaSpot</a>
+        <a href="#">рынок авиадеталей</a>
+
+      </div>
+      <div class="right-part">
+        <a href="/">Главная</a>
+        <a href="#home">О проекте</a>
+        <a href="#contact">Контакты</a>
+        <a href="#about">Помощь</a>
+      </div>
+    </div>
   </header>
+  <div id="gradient"></div>
+
+  <div id="loader">
+    <img class="spinner" src="assets/assets/images/jet.png">
+    <h1>AviaSpot</h1>
+  </div>
 
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-app.js"></script>
   <script src="https://www.gstatic.com/firebasejs/8.6.1/firebase-storage.js"></script>
@@ -43,8 +52,10 @@
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
   <script src="./config.js"></script>
   <script>
+
     firebase.initializeApp(firebaseConfig);
-    var serviceWorkerVersion = '1730029679';
+
+    var serviceWorkerVersion = '830089854';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
