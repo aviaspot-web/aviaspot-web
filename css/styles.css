@@ -89,3 +89,7 @@ h1 {
     height: 30px;
     background: linear-gradient(#EBEDEC, #fff);
 }
+
+flt-image-picker-inputs {
+    visibility: hidden;
+}
