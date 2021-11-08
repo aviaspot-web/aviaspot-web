@@ -55,7 +55,7 @@
 
     firebase.initializeApp(firebaseConfig);
 
-    var serviceWorkerVersion = '203222595';
+    var serviceWorkerVersion = '3673863570';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -66,6 +66,8 @@
       scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
+      // for production - add this line to the end of main.dart.js:
+      document.getElementById("loader").remove();
     }
 
     if ('serviceWorker' in navigator) {
