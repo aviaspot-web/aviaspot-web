@@ -3,12 +3,13 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "e23bf000d9aa5ec83a65dea9a7a04b72",
+  "assets/AssetManifest.json": "542371c8d986b12de6fc0cc5b3b16ac1",
+"assets/assets/elastic_viewer.json": "682c80e47e133db14a4ce4cac8a7cbb2",
 "assets/assets/images/chat_wallpaper.jpg": "05a5bc82558cc49fb9f922236d7de1a0",
 "assets/assets/images/jet.png": "d18a410de4dbb45ec50b542717b2674f",
 "assets/FontManifest.json": "3ba95e877e8d977ed295b7a8efefeff7",
 "assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
-"assets/NOTICES": "29c229da1685d00db63dd68a8e8d13f1",
+"assets/NOTICES": "a0300cf5f57546017983afb5b30decda",
 "assets/packages/cupertino_icons/assets/CupertinoIcons.ttf": "6d342eb68f170c97609e9da345464e5e",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Caligraphic-Bold.ttf": "a9c8e437146ef63fcd6fae7cf65ca859",
@@ -55,9 +56,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2e14418d549a7d1bdc5095769a7796ae",
-"/": "2e14418d549a7d1bdc5095769a7796ae",
-"main.dart.js": "ee599e8872034a9d07ab0c5d62c791bc",
+"index.html": "17329e37d4c3de509410105def499218",
+"/": "17329e37d4c3de509410105def499218",
+"main.dart.js": "0ed246ec8f2f37eeac04049f1639e336",
 "manifest.json": "de13eaf27aa5f4358328215be94cd370",
 "remove_language.js": "ae220d144dbed991997753ba5220ed02",
 "version.json": "0d8c555ab88fba9325fda778479e5a9d"
