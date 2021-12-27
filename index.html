@@ -20,8 +20,8 @@
 </head>
 
 <body>
-
-  <header id="ru">
+<header>
+  <div id="ru">
     <div class="main">
       <div class="left-part">
         <img class="logo" src="assets/assets/images/jet.png">
@@ -36,9 +36,9 @@
         <a href="https://aviaspot.com/help.html">Помощь</a>
       </div>
     </div>
-  </header>
+  </div>
 
-  <header id='en'>
+  <div id='en'>
     <div class="main">
       <div class="left-part">
         <img class="logo" src="assets/assets/images/jet.png">
@@ -53,8 +53,8 @@
         <a href="https://aviaspot.com/help.html">Help</a>
       </div>
     </div>
-  </header> 
-
+  </div> 
+</header>
   <div id="gradient"></div>
 
   <div id="loader">
@@ -77,7 +77,7 @@
 
     firebase.initializeApp(firebaseConfig);
 
-    var serviceWorkerVersion = '3044895210';
+    var serviceWorkerVersion = '67024982';
     var scriptLoaded = false;
     function loadMainDartJs() {
       if (scriptLoaded) {
@@ -88,8 +88,6 @@
       scriptTag.src = 'main.dart.js';
       scriptTag.type = 'application/javascript';
       document.body.append(scriptTag);
-      // for production - add this line to the end of main.dart.js:
-      document.getElementById("loader").remove();
     }
 
     if ('serviceWorker' in navigator) {

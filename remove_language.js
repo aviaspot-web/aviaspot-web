@@ -1,5 +1,5 @@
 if (navigator.language.includes("en")) {
-  document.getElementById("ru").remove();
+  document.getElementById("en").style.visibility = "visible";
 } else {
-  document.getElementById("en").remove();
+  document.getElementById("ru").style.visibility = "visible";
 }
